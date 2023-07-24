@@ -4,7 +4,7 @@ from telebot import types
 from user_agent import generate_user_agent
 import logging
 from config import *
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6002155062:AAHnR6j9qmRJ1mReNmkWSJm-wcngqQTvUvc")
 SUDO = int(os.environ.get("SUDO","1308075085"))
 Heroku = os.environ.get("HEROKU", "APP-NAME")
 APP_URL = "https://"+ Heroku +".herokuapp.com/" + BOT_TOKEN
